@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- font lato -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font dancing  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+  body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to left bottom, #78aeff, #9bacff, #bea9ff, #e0a5ff, #ffa0fa);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 200vh;
+  }
+  .nav-bg{
+    background-image: linear-gradient(to left bottom, #78aeff, #9bacff, #bea9ff, #e0a5ff, #ffa0fa);
+  }
+.au-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  font-weight: 700;
+}
+  .nav-item {
+  margin-right: 30px;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+  .section-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+/* wave 1 */
+.custom-shape-divider-bottom-1763130164 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1763130164 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 101px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1763130164 .shape-fill {
+    fill: #FFFFFF;
+}
+/* section 2 */
+
+
+.novel-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.custom-shape-divider-top-1763130029 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1763130029 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1763130029 .shape-fill {
+    fill: #fafafa;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    
+ <nav class="navbar navbar-expand-lg nav-bg" style="background-color: #e3f2fd;" data-bs-theme="light">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#" style="color: #570071;">
+      <img src="image.png" alt="Logo" width="50" height="50" class="me-2">
+      <span>Threadverse</span>
+    </a>
+
+    <!-- Toggle (untuk mobile) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Isi Navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Kiri: menu utama -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Write
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">New Story</a></li>
+            <li><a class="dropdown-item" href="#">Continue Writing</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Browse
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Popular</a></li>
+            <li><a class="dropdown-item" href="#">Latest</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Tengah: Search bar -->
+      <form class="d-flex me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <!-- Kanan: Log in & Sign up -->
+      <div class="d-flex">
+        <a href="#" class="btn btn-outline-primary me-2">Log in</a>
+        <a href="#" class="btn btn-primary">Sign up</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div style="position: relative;">
+<div class="container mt-10">
+  <div class="row align-items-start">
+
+    <!-- Kolom kiri: tulisan -->
+    <div class="col-md-6 text-black" style='padding-top: 70px;'>
+      <h1 class="au-heading">Explore Endless Stories</h1>
+      <p class="mb-4 fs-4 fw-normal ">Lorem ipsum dolor sit amet consectetur.</p>
+      <button class="btn btn-primary btn-lg">Start Reading</button>
+    </div>
+
+    <!-- Kolom kanan: gambar -->
+    <div class="col-md-6 text-center">
+      <img src="book-removebg-preview.png" class="img-fluid hero-img " alt="">
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+
+<div class="container py-5">
+  <h1 class="section-title">Popular AU Picks.</h1>
+
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        
+        <a href="lt2.html"><img src="Youth-Fellowship.jpg" alt="Novel 1"></a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        <img src="Youth-Fellowship.jpg" alt="Novel 2">
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        <img src="Youth-Fellowship.jpg" alt="Novel 3">
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        <img src="Youth-Fellowship.jpg" alt="Novel 3">
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        <img src="Youth-Fellowship.jpg" alt="Novel 3">
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="novel-card">
+        <img src="Youth-Fellowship.jpg" alt="Novel 3">
+      </div>
+    </div>
+
+    <!-- Tambah card lain... -->
+  </div>
+</div>
+
+</div>
+<!-- Wave 2 -->
+<div class="custom-shape-divider-top-1763130029">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+  </svg>
+</div>
+
+        
+   <!-- wave 1 -->
+    <div style="position: relative;">
+<div class="custom-shape-divider-bottom-1763130164">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
+
+<div class="container mt-10" style="position: relative;">
+ <footer class="text-center py-4 mt-5">
+  <p class="m-0">© 2025 MyWebsite. All rights reserved.</p>
+</footer>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
